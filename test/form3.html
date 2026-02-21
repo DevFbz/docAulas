@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mobfirst.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <title>Form3</title>
+</head>
+
+<body>
+    <header>
+        <span id="ham" class="material-icons" onclick="clickMenu()">menu</span>
+        <nav class="container" id="itens">
+            <ul class="menu">
+                <li><a class="button item" href="#">Home</a></li>
+                <li><a class="button item" href="#">Contato</a></li>
+                <li><a class="button item" href="#">A Empresa</a></li>
+                <li><a class="button item" href="#">Faq</a></li>
+            </ul>
+        </nav>
+
+       <form class="fm" action="cadastro.php" method="post">
+            <section>
+                <div>
+                    <label for="in1">Número 1:</label>
+                    <input type="number" name="n1" id="in1" min="0" max="50" required
+                        oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+                </div>
+
+                <div>
+                    <label for="in2">Número 2:</label>
+                    <input type="number" name="n2" id="in2" min="0" max="50" required
+                        oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+
+                </div>
+
+                <div>
+                    <label for="isoma">Soma: </label>
+                    <output name="soma" id="isoma">0</output>
+                </div>
+
+                <div>
+                    <label for="iran">Range:</label>
+                    <input type="range" name="range" id="iran" max="20" value="10"
+                        oninput="irang.innerHTML = Number(iran.value)">
+                    <output name="range" id="irang">10</output>
+                </div>
+
+                <div>
+                    <label for="iano">Ano:</label>
+                    <input type="number" name="ano" id="iano" min="1990" max="2023" oninput="calcIdade()">
+                </div>
+
+                <div>
+                    <label for="ioano">Idade:</label>
+                    <output name="ano" id="ioano">0</output>
+                </div>
+            </section>
+        </form>
+
+        <script>
+            function calcIdade() {
+                let atual = new Date().getFullYear()
+                ioano.innerHTML = Number(atual) - Number(iano.value)
+
+            }
+        </script>
+<!--
+        <script>
+            function mudouTamanho() {
+                if (window.innerWidth >= 768) {
+                    itens.style.display = 'flex'
+                } else {
+                    itens.style.display = 'none'
+                }
+            }
+
+            function clickMenu() {
+                if (itens.style.display == 'flex') {
+                    itens.style.display = 'none'
+                } else {
+                    itens.style.display = 'flex'
+                }
+            }
+        </script>
+        -->
+</body>
+
+</html>

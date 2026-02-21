@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{border-collapse: collapse;
+        margin: auto;}
+
+        caption,th , td{ border: 1px solid black;
+        text-align: center;
+        font-size: 25px;
+        padding: 10px;}
+        caption,thead,tfoot,#m-exatas{background-color: gray;}
+        
+        tbody > tr:nth-child(even){background-color: lightgray;}
+
+       
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="carea" span="5">
+            
+        </colgroup>
+        <caption>Boletim</caption>
+    <thead>
+        <tr class="media">
+            <th rowspan="2" scope="col">Área</th>
+            <th rowspan="2" scope="col">Disciplinas</th>
+            
+            <th colspan="2" scope="colgroup">Notas
+                <th rowspan="2" scope="col">Média</th>
+                <tr id="media">
+                <th rowspan="" scope="col">Nota 1</th>
+                <th rowspan="" scope="col">Nota 2</th>
+                
+                </tr>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th rowspan="4" scope="rowgroup">Exatas 
+            </th>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            
+            
+        </tr>
+        
+        <tr>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            
+        </tr>
+        <tr>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+    </tbody>
+        <tr id="m-exatas">
+            <th colspan="4" scope="row" >Média de Exatas</th>
+            <td>0.0</td>
+        </tr>
+    <tbody>
+        <tr>
+            <th rowspan="2" scope="rowgroup">Humanas</th>
+            <td>História</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <td>Geografia</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+    </tbody>
+
+        <tfoot>
+            <tr class="media">
+                <th colspan="4" scope="row">Média de Humanas</th>
+                <td>0.0</td>
+            </tr>
+        </tfoot>
+    
+    </table>
+</body>
+</html>

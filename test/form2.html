@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=0, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css" media="screen">
+    <link rel="stylesheet" href="imprint.css" media="print">
+    <title>Form</title>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <ul class="menu">
+                <li><a class="button item" href="#">Home</a></li>
+                <li><a class="button item" href="#">Contato</a></li>
+                <li><a class="button item" href="#">A Empresa</a></li>
+                <li><a class="button item" href="#">Faq</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="inf">
+        <form action="cadastro.php" method="post" autocomplete="off" class="fm">
+            <fieldset>
+                <legend>Informações</legend>
+                <div>
+                    <label for="iest">Estado: </label>
+                    <select name="est" id="iest">
+                        <option value="">---Escolha---</option>
+                        <option value="AC">Acre (AC)</option>
+                        <option value="AL">Alagoas (AL)</option>
+                        <option value="AP">Amapá (AP)</option>
+                        <option value="AM">Amazonas (AM)</option>
+                        <option value="BA">Bahia (BA)</option>
+                        <option value="CE">Ceará (CE)</option>
+                        <option value="DF">Distrito Federal (DF)</option>
+                        <option value="ES">Espírito Santo (ES)</option>
+                        <option value="GO">Goiás (GO)</option>
+                        <option value="MA">Maranhão (MA)</option>
+                        <option value="MT">Mato Grosso (MT)</option>
+                        <option value="MS">Mato Grosso do Sul (MS)</option>
+                        <option value="MG">Minas Gerais (MG)</option>
+                        <option value="PA">Pará (PA)</option>
+                        <option value="PB">Paraíba (PB)</option>
+                        <option value="PR">Paraná (PR)</option>
+                        <option value="PE">Pernambuco (PE)</option>
+                        <option value="PI">Piauí (PI)</option>
+                        <option value="RJ">Rio de Janeiro (RJ)</option>
+                        <option value="RN">Rio Grande do Norte (RN)</option>
+                        <option value="RS">Rio Grande do Sul (RS)</option>
+                        <option value="RO">Rondônia (RO)</option>
+                        <option value="RR">Roraima (RR)</option>
+                        <option value="SC">Santa Catarina (SC)</option>
+                        <option value="SP">São Paulo (SP)</option>
+                        <option value="SE">Sergipe (SE)</option>
+                        <option value="TO">Tocantins (TO)</option>
+                    </select>
+
+                </div>
+
+                <div>
+                    <label for="iprof">Profissão: </label>
+                    <input type="text" name="prof" id="iprof" list="lstprof">
+                    <datalist id="lstprof">
+                        <option>Agronomia</option>
+                        <option>Biotecnologia</option>
+                        <option>Ecologia</option>
+                        <option>Engenharia Ambiental</option>
+                        <option>Bioquímica</option>
+                        <option>Biofísica</option>
+                        <option>Biomedicina</option>
+                        <option>Ciências Biológicas</option>
+                        <option>Educação Física</option>
+                        <option>Enfermagem</option>
+                        <option>Estética</option>
+                        <option>Farmácia</option>
+                        <option>Fisioterapia</option>
+                        <option>Fonoaudiologia</option>
+                        <option>Gerontologia</option>
+                        <option>Medicina</option>
+                        <option>Análise e Desenvolvimento de Sistemas</option>
+                        <option>Astronomia</option>
+                        <option>Ciência da Computação</option>
+                        <option>Estatística</option>
+                        <option>Física</option>
+                        <option>Engenharia Aeronáutica</option>
+                        <option>Engenharia Agrícola</option>
+                        <option>Engenharia Agronômica</option>
+                        <option>Engenharia de Agrimensura e Cartográfica</option>
+                        <option>Engenharia de Alimentos</option>
+                        <option>Engenharia Ambiental e Sanitária</option>
+                        <option>Engenharia Biomédica</option>
+                        <option>Engenharia de Bioprocessos</option>
+                        <option>Engenharia Civil</option>
+                        <option>Engenharia de Computação</option>
+                        <option>Antropologia</option>
+                        <option>Arqueologia</option>
+                        <option>Ciência Política</option>
+                        <option>Administração</option>
+                        <option>Recursos Humanos</option>
+                        <option>Arquivologia</option>
+                        <option>Arquitetura e Urbanismo</option>
+                        <option>Biblioteconomia</option>
+                        <option>Ciências Contábeis</option>
+                        <option>Direito</option>
+                        <option>Economia</option>
+                        <option>Educomunicação</option>
+                        <option>Artes Cênicas</option>
+                        <option>Artes Plásticas</option>
+                        <option>Cinema</option>
+                        <option>Dança</option>
+                        <option>Design</option>
+                        <option>Design de Games</option>
+                        <option>Design Gráfico</option>
+                    </datalist>
+                </div>
+                <div>
+                    <label for="imsg">Mensagem:</label>
+                    <textarea name="msg" id="imsg" cols="30" rows="10" placeholder=" Escreva"></textarea>
+                </div>
+            </fieldset>
+        </form>
+
+    </section>
+</body>
+
+</html>

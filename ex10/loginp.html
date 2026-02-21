@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="logincss.css">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <div><a href="./menubs.html"><img src="assets/loo.png" alt="logo image"></a></div>
+        <form action="login.php" method="post" autocomplete="on">
+                <div id="formf">
+                    <label for="ilogin">Login</label>
+                    <input class="inpcss" type="email" required  autocomplete="email" name="login" id="ilogin">
+                    <label for="ipass">Password</label>
+                    <input class="inpcss" type="password" required autocomplete="current-password" minlength="8" maxlength="8" name="password" id="ipass">
+                
+                    <div class="flexbut"><input class="inbut" type="submit" value="Entrar"></div>
+                </div>
+        </form>
+    </main>
+</body>
+</html>

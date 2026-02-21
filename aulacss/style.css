@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+/* desc */
+               
+body{ font-size: 16px;
+background-image: url(assets//bhbh.jpg);
+background-image: linear-gradient(to top,#042940);
+background-attachment: fixed;
+font-family: 'Poppins', sans-serif;}
+
+main{background-color: #D6D58E;
+margin: auto;
+width: 600px;
+padding: 15px;
+border-radius: 15px;
+box-shadow: 0 0 1rem #070122;}
+
+aside{background-color: #D6D58E;
+margin: auto;
+width: 600px;
+padding: 15px;
+margin-top: 30px;
+border-radius: 15px;
+box-shadow: 0 0 1rem #070122;}
+
+hr{width: 500px;
+position: relative;
+bottom: 323px;}
+
+.hr2{width: 500px;
+position: relative;
+top: 0px;}
+
+h1{background-color: #005C53;
+font-size: 3em;
+text-align: center;
+font-weight: 700;}
+
+h2{background-color: #9FC131;
+font-weight: 600;}
+
+p{color: #000000;
+text-align: justify;
+font-weight: 400;
+text-shadow: 1 1 2px black;}
+
+.h1first:hover{color: white;
+text-decoration: underline;}
+
+
+

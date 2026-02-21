@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+
+fieldset{width: 350px;}
+legend{margin-left: 20px;}
+#imsg{text-indent: 1px;}
+textarea{resize:none;
+width: 250px}
+#imsg::placeholder{text-indent: 0px;}
+
+
+header{display: none;}

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:wght@400;600;700&family=Roboto&display=swap"
+        rel="stylesheet">
+    
+    <title>&lsaquo;TabWeb&rsaquo;</title>
+    <style>
+        @charset "UTF-8";
+        @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:wght@400;600;700&family=Roboto&display=swap');
+/*  #605F5E
+    #E2E2E2
+    #42253B
+    
+    #EEEEFF
+    
+    #E2C391
+    #F6E27F
+    #251605 */
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --font-padrao: "Poppins", sans-serif;
+            --cor1: #605F5E;
+            --cor2: #E2E2E2;
+            --cor3: #42253B;
+            --cor4: #EEEEFF;
+            --cor5: #E2C391;
+            --cor6: #F6E27F;
+            --cor7: #251605;
+            --corpadrao:#8847ff;
+            --cor9:
+            --cor10:
+        }
+
+        body {
+            font-family: var(--font-padrao);
+            background-color: var(--cor4)
+        }
+
+        header {
+            background-color: #8847ff;
+            overflow: hidden;
+        }
+
+        nav {
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr;
+            align-items: center;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-around;
+        }
+
+        ul li a {
+            padding: 10px;
+            transition:.5s ease-in-out;
+        }
+
+        a,
+        .orc,
+        .logo {
+            font-weight: bold;
+        }
+
+        .orc {
+            justify-content: right;
+            display: flex;
+            padding: 9px;
+        }
+
+        /*ul li a:hover {
+            background-color: #fff;
+            color: #8847ff;
+            
+        }*/
+        a{color: #fff;
+        text-decoration: none;}
+
+        .button{display: flex;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            text-decoration: none;
+            font-size: 15px;
+            z-index: 1;
+        }
+
+        .button::before{content: '';
+        width: 100%;
+        height: 100%;
+
+            position: absolute;
+            background: var(--cor4);
+            
+        transition: all .3s;
+
+            z-index: -1;
+        }
+        .item::before{width: 100%;
+        height: 0%;
+        left: 0;
+        bottom: 0;}
+
+        .item:hover::before{height: 100%;}
+        .button:hover{color: var(--corpadrao);
+        transition: color .3s ease-in;}
+
+        .logo {
+            padding: 10px;
+            font-size: 20px;
+            align-items: center;
+        }
+
+        div#container{overflow-x: auto;
+            display: flex;
+            
+        }
+        tr:nth-child(even){background-color: lightgrey;}
+        table {
+            border-collapse: collapse;
+            margin: auto;
+            margin-top: 80px;
+        }
+
+
+        th,
+        td {
+            border: 1px solid #8847ff;
+            padding: 10px;
+        }
+        h1,caption{color: #8847ff;}
+        caption{font-size: 27px;
+            padding: 10px;
+        font-weight: bold;}
+        h1{padding: 10px;
+        margin-top: 30px;}
+        h1,p{
+        text-align: center;
+        margin-top: 20px;}
+
+        footer{width: 100%;
+        height: 380px;
+        background-image: linear-gradient(to bottom, var(--corpadrao), #2d1755);}
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div>
+                <a class="logo" href="#">&lsaquo;TabWeb&rsaquo;</a>
+            </div>
+            <ul>
+                <li><a class="button item" href="#">Home</a></li>
+                <li><a class="button item" href="#">Contato</a></li>
+                <li><a class="button item" href="#">A Empresa</a></li>
+                <li><a class="button item" href="#">Faq</a></li>
+            </ul>
+
+            <div>
+                <a class="orc" href="#">Orçamento</a>
+            </div>
+        </nav>
+    </header>
+    <h1>TabList</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eos quidem libero ipsa blanditiis sapiente accusantium autem repellat repudiandae explicabo tenetur eligendi nobis delectus assumenda id, nisi porro odio quisquam?</p>
+    <div id="container">
+        <table>
+            <caption>Pessoas</caption>
+            <thead>
+                <tr>
+                    <th>Produtos</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+        
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>TV 40'</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Home Theater</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Samsung Galaxy S20</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>iPad Mini</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>PlayStation 4</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Lava louças</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Amazon Echo</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td>16</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+<a href="index.html"><button>Home</button></a>
+</body>
+<footer></footer>
+</html>

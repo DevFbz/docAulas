@@ -1,0 +1,141 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Montserrat:wght@900", sans-serif;
+    font-family: "Urbanist:wght@500", "Urbanist:wght@900", sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Urbanist:wght@500;900&display=swap");
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    background-image: linear-gradient(to top, #1e071e, #5a155a);
+    background-color: #1e071e;
+    font-family: "Urbanist", sans-serif;
+    background-attachment: fixed;
+
+}
+    
+.n_home{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    }
+.n_home:hover{text-decoration: underline;
+text-decoration-color: white;
+text-decoration-thickness: 3px;
+text-underline-offset: 10px;
+}
+
+.n_signup{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+   
+}
+.n_signup:hover{text-decoration: underline;
+text-decoration-color: white;
+text-decoration-thickness: 3px;
+text-underline-offset: 10px;}
+.n_login{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    
+}
+.n_login:hover{text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;}
+
+header{
+    height: 10vh;
+    display: flex;
+    background-color: #0f030f;
+    justify-content: space-between;
+    box-shadow: 0 0 1rem black;
+    z-index: 999px;
+    
+}
+nav{
+    font-family: "Urbanist", sans-serif;
+    
+}
+ul{
+    display: flex;
+    margin: 23px;
+    font-family: "Urbanist", sans-serif;
+    text-decoration: none;
+
+    
+}
+li{
+    color:#ffffff;
+    list-style-type: none;
+    padding-left: 2rem;
+    cursor: pointer;
+    font-family: "Urbanist", sans-serif;
+    text-decoration: none;
+
+
+    
+}
+.n_frente{
+    font-size: 40px;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 5cm;
+    font-family: "Urbanist", sans-serif;
+    text-shadow: 0 0 1rem #1e071e;
+}
+button{
+    background-color: blueviolet;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px 30px;
+    font-family: "Urbanist", sans-serif;
+    font-size: medium;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    box-shadow: 0 0 1rem #0f030f; 
+}
+
+button:hover{background-color: #933ce6;}
+
+.but{
+    padding-left: 630px;
+    padding-top: 50px;
+    font-family: "Urbanist", sans-serif;
+    
+}
+.subn{
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 0 0 1rem black;
+
+}
+
+.container{
+    height: 5px;
+    width: 5px;
+    display: flex;
+    border-radius: 10px;
+    color: blueviolet;
+}
+.main2{
+    font-size: 50px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+.n_logo{position: relative;
+    left: 10px;
+    bottom: 30px;
+    filter: drop-shadow(0 0 0.5em black);
+}
+
+
