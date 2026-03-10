@@ -1,0 +1,1 @@
+if(acumulador.idade > valor.idade) return acumulador

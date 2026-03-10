@@ -1,0 +1,14 @@
+C:\C.JavaScript\C# - Exercicios\aula3\bin\Debug\net9.0\aula3.exe
+C:\C.JavaScript\C# - Exercicios\aula3\bin\Debug\net9.0\aula3.deps.json
+C:\C.JavaScript\C# - Exercicios\aula3\bin\Debug\net9.0\aula3.runtimeconfig.json
+C:\C.JavaScript\C# - Exercicios\aula3\bin\Debug\net9.0\aula3.dll
+C:\C.JavaScript\C# - Exercicios\aula3\bin\Debug\net9.0\aula3.pdb
+C:\C.JavaScript\C# - Exercicios\aula3\obj\Debug\net9.0\aula3.GeneratedMSBuildEditorConfig.editorconfig
+C:\C.JavaScript\C# - Exercicios\aula3\obj\Debug\net9.0\aula3.AssemblyInfoInputs.cache
+C:\C.JavaScript\C# - Exercicios\aula3\obj\Debug\net9.0\aula3.AssemblyInfo.cs
+C:\C.JavaScript\C# - Exercicios\aula3\obj\Debug\net9.0\aula3.csproj.CoreCompileInputs.cache
+C:\C.JavaScript\C# - Exercicios\aula3\obj\Debug\net9.0\aula3.dll
+C:\C.JavaScript\C# - Exercicios\aula3\obj\Debug\net9.0\refint\aula3.dll
+C:\C.JavaScript\C# - Exercicios\aula3\obj\Debug\net9.0\aula3.pdb
+C:\C.JavaScript\C# - Exercicios\aula3\obj\Debug\net9.0\aula3.genruntimeconfig.cache
+C:\C.JavaScript\C# - Exercicios\aula3\obj\Debug\net9.0\ref\aula3.dll

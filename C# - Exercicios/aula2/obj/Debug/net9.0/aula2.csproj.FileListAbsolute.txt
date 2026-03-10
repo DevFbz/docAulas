@@ -1,0 +1,14 @@
+C:\C.JavaScript\C# - Exercicios\aula2\obj\Debug\net9.0\aula2.GeneratedMSBuildEditorConfig.editorconfig
+C:\C.JavaScript\C# - Exercicios\aula2\obj\Debug\net9.0\aula2.AssemblyInfoInputs.cache
+C:\C.JavaScript\C# - Exercicios\aula2\obj\Debug\net9.0\aula2.AssemblyInfo.cs
+C:\C.JavaScript\C# - Exercicios\aula2\obj\Debug\net9.0\aula2.csproj.CoreCompileInputs.cache
+C:\C.JavaScript\C# - Exercicios\aula2\bin\Debug\net9.0\aula2.exe
+C:\C.JavaScript\C# - Exercicios\aula2\bin\Debug\net9.0\aula2.deps.json
+C:\C.JavaScript\C# - Exercicios\aula2\bin\Debug\net9.0\aula2.runtimeconfig.json
+C:\C.JavaScript\C# - Exercicios\aula2\bin\Debug\net9.0\aula2.dll
+C:\C.JavaScript\C# - Exercicios\aula2\bin\Debug\net9.0\aula2.pdb
+C:\C.JavaScript\C# - Exercicios\aula2\obj\Debug\net9.0\aula2.dll
+C:\C.JavaScript\C# - Exercicios\aula2\obj\Debug\net9.0\refint\aula2.dll
+C:\C.JavaScript\C# - Exercicios\aula2\obj\Debug\net9.0\aula2.pdb
+C:\C.JavaScript\C# - Exercicios\aula2\obj\Debug\net9.0\aula2.genruntimeconfig.cache
+C:\C.JavaScript\C# - Exercicios\aula2\obj\Debug\net9.0\ref\aula2.dll

@@ -1,0 +1,14 @@
+C:\C.JavaScript\C# - Exercicios\DateTimeProjeto\bin\Debug\net9.0\DateTimeProjeto.exe
+C:\C.JavaScript\C# - Exercicios\DateTimeProjeto\bin\Debug\net9.0\DateTimeProjeto.deps.json
+C:\C.JavaScript\C# - Exercicios\DateTimeProjeto\bin\Debug\net9.0\DateTimeProjeto.runtimeconfig.json
+C:\C.JavaScript\C# - Exercicios\DateTimeProjeto\bin\Debug\net9.0\DateTimeProjeto.dll
+C:\C.JavaScript\C# - Exercicios\DateTimeProjeto\bin\Debug\net9.0\DateTimeProjeto.pdb
+C:\C.JavaScript\C# - Exercicios\DateTimeProjeto\obj\Debug\net9.0\DateTimeProjeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\C.JavaScript\C# - Exercicios\DateTimeProjeto\obj\Debug\net9.0\DateTimeProjeto.AssemblyInfoInputs.cache
+C:\C.JavaScript\C# - Exercicios\DateTimeProjeto\obj\Debug\net9.0\DateTimeProjeto.AssemblyInfo.cs
+C:\C.JavaScript\C# - Exercicios\DateTimeProjeto\obj\Debug\net9.0\DateTimeProjeto.csproj.CoreCompileInputs.cache
+C:\C.JavaScript\C# - Exercicios\DateTimeProjeto\obj\Debug\net9.0\DateTimeProjeto.dll
+C:\C.JavaScript\C# - Exercicios\DateTimeProjeto\obj\Debug\net9.0\refint\DateTimeProjeto.dll
+C:\C.JavaScript\C# - Exercicios\DateTimeProjeto\obj\Debug\net9.0\DateTimeProjeto.pdb
+C:\C.JavaScript\C# - Exercicios\DateTimeProjeto\obj\Debug\net9.0\DateTimeProjeto.genruntimeconfig.cache
+C:\C.JavaScript\C# - Exercicios\DateTimeProjeto\obj\Debug\net9.0\ref\DateTimeProjeto.dll

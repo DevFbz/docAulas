@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section>
+          <div class="container-text">
+            <h1>Formúlario de Cadastro</h1>
+            <ul>
+              <li>Nenhum campo pode estar vazio</li>
+              <li>Usuário só poderá conter letras e/ou números</li>
+              <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+              <li>Senha precisa ter entre 6 e 12 caracteres</li>
+            </ul>
+          <form action="/" method="post" class="formulario">
+            
+          </div>
+            <div class="div-inputs">
+            <label for="iname">Nome:</label>
+            <input type="text" id="iname" class="nome validar"/>
+  
+            <label for="isobre">Sobrenome:</label>
+            <input type="text" id="isobre" class=" sobrenome validar"/>
+  
+            <label for="email">E-mail:</label>
+            <input type="text" id="email" class="email validar"/>
+  
+            <label for="icpf">CPF:</label>
+            <input type="text" id="icpf" class="cpf validar" />
+  
+            <label for="iuser">Usuário:</label>
+            <input type="text" id="iuser" class="usuario validar"/>
+  
+            <label for="isenha">Senha:</label>
+            <input type="password"id="isenha" class="senha validar">
+  
+            
+            <label for="irsenha">Repetir Senha:</label>
+            <input type="password"  id="irsenha" class="repetir-senha validar">
+  
+            <button type="submit">Enviar</button>
+          </div>
+          </form>
+        </section>
+      </main>
+</body>
+</html>

@@ -1,0 +1,14 @@
+C:\C.JavaScript\C# - Exercicios\aula4-EstruturaRepetição\obj\Debug\net9.0\aula4-EstruturaRepetição.GeneratedMSBuildEditorConfig.editorconfig
+C:\C.JavaScript\C# - Exercicios\aula4-EstruturaRepetição\obj\Debug\net9.0\aula4-EstruturaRepetição.AssemblyInfoInputs.cache
+C:\C.JavaScript\C# - Exercicios\aula4-EstruturaRepetição\obj\Debug\net9.0\aula4-EstruturaRepetição.AssemblyInfo.cs
+C:\C.JavaScript\C# - Exercicios\aula4-EstruturaRepetição\obj\Debug\net9.0\aula4-EstruturaRepetição.csproj.CoreCompileInputs.cache
+C:\C.JavaScript\C# - Exercicios\aula4-EstruturaRepetição\bin\Debug\net9.0\aula4-EstruturaRepetição.exe
+C:\C.JavaScript\C# - Exercicios\aula4-EstruturaRepetição\bin\Debug\net9.0\aula4-EstruturaRepetição.deps.json
+C:\C.JavaScript\C# - Exercicios\aula4-EstruturaRepetição\bin\Debug\net9.0\aula4-EstruturaRepetição.runtimeconfig.json
+C:\C.JavaScript\C# - Exercicios\aula4-EstruturaRepetição\bin\Debug\net9.0\aula4-EstruturaRepetição.dll
+C:\C.JavaScript\C# - Exercicios\aula4-EstruturaRepetição\bin\Debug\net9.0\aula4-EstruturaRepetição.pdb
+C:\C.JavaScript\C# - Exercicios\aula4-EstruturaRepetição\obj\Debug\net9.0\aula4-EstruturaRepetição.dll
+C:\C.JavaScript\C# - Exercicios\aula4-EstruturaRepetição\obj\Debug\net9.0\refint\aula4-EstruturaRepetição.dll
+C:\C.JavaScript\C# - Exercicios\aula4-EstruturaRepetição\obj\Debug\net9.0\aula4-EstruturaRepetição.pdb
+C:\C.JavaScript\C# - Exercicios\aula4-EstruturaRepetição\obj\Debug\net9.0\aula4-EstruturaRepetição.genruntimeconfig.cache
+C:\C.JavaScript\C# - Exercicios\aula4-EstruturaRepetição\obj\Debug\net9.0\ref\aula4-EstruturaRepetição.dll

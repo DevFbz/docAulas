@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: chocolate;
+    width: 100vw;
+    height: 100vh;
+}
+.container-global{
+    display: flex;
+    width: 100vw;
+    height: calc(100vh / 2);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+display: block;
+/* flex-direction: column; */
+padding-top: 45px;
+width: 500px;
+height: 150px;
+max-height: 350px;
+background-color: #fff;
+padding-left: 20px;
+border-radius: 20px;
+}
